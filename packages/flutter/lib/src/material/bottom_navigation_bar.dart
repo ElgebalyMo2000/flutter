@@ -200,7 +200,7 @@ class BottomNavigationBar extends StatefulWidget {
     this.landscapeLayout,
     this.useLegacyColorScheme = true,
   }) : assert(items != null),
-       assert(items.length >= 2),
+       assert(items.length >= 1),
        assert(
         items.every((BottomNavigationBarItem item) => item.label != null),
         'Every item must have a non-null label',
